@@ -1,8 +1,13 @@
 import React from 'react';
+import Ourservices from './Homeparts/Ourservices/Ourservices';
+import Teammembers from './Homeparts/TeamMembers/Teammembers';
 
 const Main = () => {
   return (
-    <div>Main</div>
+    <>
+      <Ourservices />
+      <Teammembers />
+    </>
   )
 }
 

@@ -505,7 +505,7 @@ header .container .menu nav a.active::after, header .container .menu nav a:hover
 @media (min-width: 768px) and (min-width: 768px) {
   .about-company .container .company-section-2 .move-buttons {
     display: flex;
-    align-items: end;
+    align-items: flex-end;
     gap: 30px;
     padding-top: 100px;
   }

@@ -1,5 +1,6 @@
 import React from 'react';
-import Logo from '../assets/images/Logo-1.svg'
+import Logo from '../../assets/images/Logo-1.svg'
+import footerLines from '../../assets/images/lines-5.png'
 import { Link } from 'react-router-dom'
 
 const Footer = () => {
@@ -43,7 +44,7 @@ const Footer = () => {
                     </div>
                 </div>
             </div>
-            <div className="lines-footer"><img src="images/lines-5.png" alt="lines-for-footer" /></div>
+            <div className="lines-footer"><img src={footerLines} alt="lines-for-footer" /></div>
         </div>
         <div className="footer-bar">
             <div className="container">

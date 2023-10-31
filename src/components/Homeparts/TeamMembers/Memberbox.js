@@ -1,10 +1,10 @@
 import React from 'react'
 
 
-const Memberbox = ({title, description, imageSrs}) => {
+const Memberbox = ({ imageSrc, title, description }) => {
   return (
     <div className="memberbox">
-        <img src={imageSrs} alt="member-pic" />
+        <img src={imageSrc} alt="member-pic" />
         <h3>{title}</h3>
         <p>{description}</p>
     </div>

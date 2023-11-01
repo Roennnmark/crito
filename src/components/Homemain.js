@@ -7,6 +7,7 @@ import Features from './Homeparts/Features/Features';
 import AboutCompany from './Homeparts/AboutCompany/AboutCompany';
 import ChooseUs from './Homeparts/ChooseUs/ChooseUs';
 import ProjectAndCase from './Homeparts/ProjectAndCase/ProjectAndCase';
+import ClientComments from './Homeparts/ClientComments/ClientComments';
 
 const Main = () => {
   return (
@@ -19,6 +20,7 @@ const Main = () => {
       <ChooseUs />
       <ProjectAndCase />
       <Teammembers />
+      <ClientComments />
     </>
   )
 }

@@ -627,6 +627,7 @@ header .container .menu nav a.active::after, header .container .menu nav a:hover
 }
 .choose-us .container .left-section {
   margin-right: -160px;
+  margin-top: -130px;
 }
 .choose-us .container .left-section h3 {
   font-family: "DM Sans", sans-serif;
@@ -642,7 +643,6 @@ header .container .menu nav a.active::after, header .container .menu nav a:hover
   display: flex;
   align-items: center;
   gap: 30px;
-  padding-top: 10px;
 }
 .choose-us .container .left-section .icon-text i {
   border: 1px solid rgb(184, 183, 183);

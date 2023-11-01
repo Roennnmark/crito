@@ -518,7 +518,7 @@ header {
                 .move-buttons {
                     @media (min-width: 768px) {
                         display: flex;
-                        align-items: end;
+                        align-items: flex-end;
                         gap: 30px;
                         padding-top: 100px;
                         .btn-transparent {
@@ -649,6 +649,7 @@ header {
 
         .left-section {
             margin-right: -160px;
+            margin-top: -130px;
             h3 {
                 font-family: 'DM Sans', sans-serif;
                 font-weight: 700;
@@ -663,8 +664,6 @@ header {
                 display: flex;
                 align-items: center;
                 gap: 30px;
-                padding-top: 10px;
-
                 i {
                     border: 1px solid rgb(184, 183, 183);
                     width: 55px;

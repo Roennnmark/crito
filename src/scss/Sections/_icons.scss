@@ -1,0 +1,13 @@
+.icons {
+    .container {
+        display: none;
+        
+        @media (min-width: 1400px) {
+            display: flex;
+            justify-content: space-between;
+            padding: 60px;
+            align-items: center;
+            margin-bottom: 100px;
+        }
+    }
+}

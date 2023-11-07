@@ -1,0 +1,114 @@
+.articles-news{
+    padding-bottom: 90px;
+
+    .container {
+
+        .section-title {
+            h2 {
+                font-size: 25px;
+            }
+            @media (min-width: 560px) {
+                margin-bottom: -30px;
+
+                .article-headline-2 {
+                    display: flex;
+                    justify-content: space-between;
+                }
+            }
+
+        }
+
+        .three-articles {
+            img {
+                display: none;
+            }
+            @media (min-width: 560px) {
+                display: grid;
+                grid-template-columns: 1fr;
+                img {
+                    display: block;
+                }
+            }
+
+            @media (min-width: 1200px) {
+                display: grid;
+                grid-template-columns: 1fr 1fr 1fr;
+                gap: 30px;
+                img {
+                    display: block;
+                }
+            }
+
+            .date-box-1 {
+                display: none;
+                @media (min-width: 1200px) {
+                    display: block;
+                    width: 55px;
+                    height: 65px;;
+                    position: relative;
+                    top: -422px;
+                    left: 10px;
+                    background-color: #F0D082;
+                    text-align: center;
+                    p {
+                        margin-top: -20px;
+                    }
+                }
+    
+            }
+            .date-box-2 {
+                display: none;
+                @media (min-width: 1200px) {
+                    display: block;
+                    width: 55px;
+                    height: 65px;;
+                    position: relative;
+                    top: -485px;
+                    left: 462px;
+                    background-color: #F0D082;
+                    text-align: center;
+                }
+    
+            }
+            .date-box-3 {
+                display: none;
+                @media (min-width: 1200px) {
+                    display: block;
+                    width: 55px;
+                    height: 65px;;
+                    position: relative;
+                    top: -550px;
+                    left: 912px;
+                    background-color: #F0D082;
+                    text-align: center;
+                }
+    
+            }
+
+            p {
+                font-family: 'Inter', sans-serif;
+                font-size: 15px;
+                font-weight: 400;
+                padding-top: 20px;
+                color: #6e6e6c;
+            }
+
+            h3 {
+                font-family: 'DM Sans', sans-serif;
+                font-weight: 700;
+                font-size: 22px;
+            }
+        }
+
+
+        .slide-dots-2 {
+            display: none;
+            @media (min-width: 1400px) {
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                gap: 15px;
+            }
+        }
+    }
+}

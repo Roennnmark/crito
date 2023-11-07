@@ -22,13 +22,13 @@ const ProjectAndCase = () => {
                 <Sectiontitle title="Project & Case Studies" description="Let's Looks Out Global Projects"/>
             </div>
             <div className="project-and-cases">
-            {projectList.map(( myItem, index ) => (
+                {projectList.map(( myItem, index ) => (
                         <ProjectBox key={index} picSrc={myItem.picSrc} title={myItem.title} url={myItem.url} />
-                    ))}
-        </div>
-        <div className="center-content">
+                ))}
+            </div>
+            <div className="center-content">
                 <a className="btn-black" href="projects.html">All recent projects <i className="fa-regular fa-arrow-up-right"></i></a>
-        </div>
+            </div>
         </div>
     </section>
   )

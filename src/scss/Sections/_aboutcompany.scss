@@ -1,0 +1,89 @@
+.about-company {
+    padding-top: 40px;
+    .container {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        gap: 130px;
+
+        .company-section-1 {
+            
+
+            img { 
+                display: none;
+
+                @media (min-width: 1220px) {
+                display: block;
+                margin-left: 50px;
+                }
+                
+            }
+            .company-box {
+                display: none;
+                
+                @media (min-width: 1220px) {
+                    display: block;
+                    position: relative;
+                    top: -220px;
+                    left: 0;
+                    background-color: #BEEBFF;
+                    padding: 30px;
+                    margin-right: 222px;
+    
+                    p {
+                        font-family: 'Inter', sans-serif;
+                        font-size: 15px;
+                        font-weight: 400;
+                        padding-top: 10px;
+                    }
+                    h3 {
+                        font-family: 'DM Sans', sans-serif;
+                        font-weight: 700;
+                        font-size: 20px;
+                    }
+                    .image-text {
+                        display: flex;
+                        align-items: center;
+                        gap: 5px;
+                        
+                        p {
+                            color: red;
+                        }
+                    }
+                }
+            }
+        }
+        .company-section-2 {
+            margin-left: -110px;
+            margin-top: -200px;
+            .company-text {
+                padding-bottom: 15px;
+            }
+            @media (min-width: 768px) {
+                padding: 100px;
+                font-family: 'Inter', sans-serif;
+                font-size: 15px;
+                font-weight: 400;
+                margin-top: -300px;
+                margin-right: -90px;
+    
+                .section-title {
+                    margin-bottom: -50px;
+                }
+    
+                .move-buttons {
+                    @media (min-width: 768px) {
+                        display: flex;
+                        align-items: flex-end;
+                        gap: 30px;
+                        padding-top: 100px;
+                        .btn-transparent {
+                            padding: 12px 15px;
+                        }
+                    }
+
+                }
+            }
+        }
+    }
+}

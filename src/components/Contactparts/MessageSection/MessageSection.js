@@ -1,6 +1,53 @@
-import React from 'react'
+import React from 'react';
+import { useState } from 'react';
+import { useFormik } from "formik";
+import * as Yup from 'yup';
 
 const MessageSection = () => {
+    const [errorMessage, setErrorMessage] = useState('')
+
+    const form = useFormik({
+        initialValues: {
+            name: '',
+            email: '',
+            message:''
+        },
+
+        validationSchema: Yup.object( {
+            name: Yup.string()
+                .required("You have to write your name!")
+                .min(2, "You have to write your name!"),
+            email: Yup.string()
+                .required("You need to put your E-mail!")
+                .email("Put a valid E-mail adress"),
+            message: Yup.string()
+                .required("Write atleast 10 letters.")
+                .min(10, "Write atleast 10 letters.")
+
+        }),
+
+        onSubmit: async (values) => {
+            const result = await fetch('https://win23-assignment.azurewebsites.net/api/contactform', {
+                method: 'post',
+                headers: {
+                    'content-type': 'application/json'
+                },
+                body: JSON.stringify(values)
+            })
+
+            switch (result.status) {
+                case 200:
+                    alert('Message have been sent!')
+                    break;
+                default:
+                    setErrorMessage('Something went wrong...')
+                    break;
+            }
+        }
+    })
+
+
+
   return (
     <section className="message-section">
         <div className="container">
@@ -9,13 +56,23 @@ const MessageSection = () => {
                 <h2>for any information.</h2>
             </div>
             <div className="user-input">
-                <form action="#">
-                    <input method="post" type="text" name="name" placeholder="Name*" />
-                    <input method="post" type="email" name="email" placeholder="Email*" />
-                    <textarea method="post" name="message" placeholder="Your message*" />
+                <form onSubmit={form.handleSubmit} noValidate>
+                    <p className="errorMessage">{errorMessage}</p>
+                    <div className="message-grp">
+                        <label className={form.touched.name && form.errors.name ? 'error': ''}>{form.touched.name && form.errors.name ? form.errors.name : 'Name'}</label>
+                        <input type="text" name="name" value={form.values.name} onChange={form.handleChange} onBlur={form.handleBlur} />
+                    </div>
+                    <div className="message-grp">
+                        <label className={form.touched.email && form.errors.email ? 'error': ''}>{form.touched.email && form.errors.email ? form.errors.email : 'E-mail'}</label>
+                        <input type="email" name="email" value={form.values.email} onChange={form.handleChange} onBlur={form.handleBlur} />
+                    </div>
+                    <div className="message-grp">
+                        <label className={form.touched.message && form.errors.message ? 'error': ''}>{form.touched.message && form.errors.message ? form.errors.message : 'Your Message'}</label>
+                        <textarea type="text" name="message" value={form.values.message} onChange={form.handleChange} onBlur={form.handleBlur} />
+                    </div>
+                <button className="btn-yellow" type="submit" >Send Message<i className="fa-regular fa-arrow-up-right"></i></button>
                 </form>
             </div>
-            <div className="btn-yellow">Send Message <i className="fa-regular fa-arrow-up-right"></i></div>
         </div>
     </section>
   )

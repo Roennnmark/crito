@@ -23,7 +23,7 @@ const ClientComments = () => {
             </div>
             <div className="comments-from-clients">
             {clientList.map(( myItem, index ) => (
-                        <ClientBox key={index} imgSrc={myItem.imageSrc} description={myItem.description} picSrc={myItem.picSrc} title={myItem.title} secondtitle={myItem.secondtitle} />
+                        <ClientBox key={index} imgSrc={myItem.imgSrc} description={myItem.description} picSrc={myItem.picSrc} title={myItem.title} secondtitle={myItem.secondtitle} />
                     ))}
             </div>
             <div className="center-content">

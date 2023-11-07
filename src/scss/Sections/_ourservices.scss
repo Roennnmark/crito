@@ -1,0 +1,108 @@
+.our-services {
+    background-color: #F0EFE9;
+    padding-bottom: 100px;
+    position: relative;
+    z-index: 0;
+    .lines-services {
+        display: none;
+        @media (min-width: 1400px) {
+            display: block;
+            position: absolute;
+            bottom: 0;
+            right: 0;
+            z-index: -1;
+        }
+    }
+
+    .container {
+
+        .different-services {
+            display: grid;
+            grid-template-columns: 1fr;
+            gap: 15px;
+            h2 {
+                display: none;
+            }
+
+            @media (min-width: 550px) {
+                display: grid;
+                grid-template-columns: 1fr 1fr;
+                gap: 30px;
+                h2 {
+                    display: none;
+                }
+            }
+
+            @media (min-width: 1410px) {
+                display: grid;
+                grid-template-columns: 1fr 1fr 1fr 1fr;
+                gap: 30px;
+    
+                h2 {
+                    display: block;
+                    margin-top: -50px;
+                    margin-bottom: 30px;
+
+                }
+                p {
+                    font-family: 'Inter', sans-serif;
+                    font-size: 15px;
+                    font-weight: 400;
+                    padding-top: 20px;
+                }
+                h3 {
+                    font-family: 'DM Sans', sans-serif;
+                    font-weight: 700;
+                    font-size: 22px;
+                }
+                .box-1 {
+                    background-color: #FFFFFF;
+                    padding: 80px 30px;
+                }
+                .box-2 {
+                    background-color: #F0D082;
+                    padding: 80px 30px;
+                    .btn-black {
+                        background-color: #FFFFFF;
+                        border: none;
+                        i{
+                            color: black;
+                        }
+                        &:hover {
+                            background-color: #191919;
+                            color: #FFFFFF;
+                            i {
+                                color: #FFFFFF;
+                            }
+                        }
+                    }
+                }
+    
+                .btn-black {
+                    padding: 8px 10px;
+                    margin-left: 200px;
+                }
+            }
+            .box-1 {
+                background-color: #FFFFFF;
+                padding: 80px 30px;
+            }
+            .box-2 {
+                background-color: #F0D082;
+                padding: 80px 30px;
+                .btn-black {
+                    background-color: #FFFFFF;
+                    border: none;
+                    i{
+                        color: black;
+                    }
+                }
+            }
+        }
+
+        .center-content {
+            padding-top: 40px;
+        }
+
+    }
+}

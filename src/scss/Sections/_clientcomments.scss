@@ -1,0 +1,72 @@
+.client-comments {
+    background-color: #F0D082;
+    position: relative;
+    z-index: 0;
+    padding-bottom: 150px;
+    
+    .box-box {
+        display: none;
+
+        @media (min-width: 1400px) {
+            display: block;
+            width: 1520px;
+            height: 790px;
+            background-color: #FFFFFF;
+            position: absolute;
+            top: 0;
+            left: 200px;
+            z-index: -1;
+        }
+
+
+    }
+
+    .container {
+        padding-bottom: 50px;
+
+        .section-title {
+            
+            @media (min-width: 768px) {
+                text-align: center;
+            }
+
+        }
+
+        .comments-from-clients {
+            display: grid;
+            grid-template-columns: 1fr;
+            padding: 5px 50px;
+            gap: 50px;
+            margin-left: -50px;
+            @media (min-width: 768px) {
+                grid-template-columns: 1fr 1fr 1fr;
+            }
+
+            .txt-1 {
+                font-family: 'Inter', sans-serif;
+                font-size: 18px;
+                font-weight: 400;
+            }
+            }
+            .txt-2 {
+                color: #F94D1C;
+                text-align: right;
+            }
+            h3 {
+                text-align: right;
+            }
+            .img-text {
+                display: flex;
+                gap: 15px;
+
+                .img-text-2 {
+                    align-items: start;
+                }
+            }
+    }
+
+        .center-content {
+            margin-top: 40px;
+            margin-bottom: 50px;
+        }
+}

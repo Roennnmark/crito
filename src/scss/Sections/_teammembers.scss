@@ -1,0 +1,92 @@
+.team-members {
+    background-color: #F0D082;
+    padding-bottom: 75px;
+    .container {
+        
+        .section-title {
+
+            .head-line-1 {
+                font-family: 'Inter', sans-serif;
+                font-size: 16px;
+                font-weight: 500;
+            }
+            .head-line-2 {
+                display: flex;
+                justify-content: space-between;
+                
+                h2 {
+                    font-family: 'DM Sans', sans-serif;
+                    font-weight: 700;
+                    font-size: 25px;
+
+                    @media (min-width: 768px) {
+                        font-family: 'DM Sans', sans-serif;
+                        font-weight: 700;
+                        font-size: 45px;
+                    }
+                }
+
+                a {
+                    display: none;
+                    border-color: #191919;
+
+                    @media (min-width: 768px) {
+                        display: flex;
+                        align-items: center;
+                        border-color: #191919;
+                    }
+                }
+            }
+
+        }
+
+        .head-members {
+            display: grid;
+            grid-template-columns: 1fr;
+            img {
+                width: 40%;
+            }
+            @media (min-width: 580px) {
+                display: grid;
+                grid-template-columns: 1fr 1fr;
+                gap: 20px;
+                padding: 20px 5px;
+
+                img {
+                    width: 70%;
+                }
+            }
+
+            @media (min-width: 768px) {
+                grid-template-columns: 1fr 1fr 1fr 1fr;
+                img {
+                    width: 100%;
+                    
+                }
+    
+                h3 {
+                    font-family: 'DM Sans', sans-serif;
+                    font-weight: 700;
+                    font-size: 22px;
+                    padding: 20px;
+                    text-align: left;
+                    margin-left: -20px;
+                    margin-bottom: -15px;
+                }
+    
+                p {
+                    font-family: 'Inter', sans-serif;
+                    font-size: 12px;
+                    font-weight: 500;
+                }
+            }
+        }
+    
+        .slide-dots {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            gap: 15px;
+        }
+    }
+}

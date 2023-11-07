@@ -1,0 +1,83 @@
+.project-and-case {
+    
+    .container {
+        
+        .section-title {
+            @media (min-width: 1400px) {
+                text-align: center;
+            }
+
+        }
+
+        .project-and-cases {
+            
+            img {
+                display: none;
+            }
+            @media (min-width: 560px) {
+                display: grid;
+                grid-template-columns: 1fr;
+                gap: 30px;
+                img {
+                    width: 100%;
+                    height: auto;
+                    display: block;
+                }
+            }
+
+            @media (min-width: 1400px) {
+                grid-template-columns: 1fr 1fr;
+                
+                img {
+                    width: 100%;
+                    display: block;
+                }
+            }
+            article {
+
+                h3 {
+                    font-family: 'DM Sans', sans-serif;
+                    font-weight: 700;
+                    font-size: 22px;
+                    padding-top: 35px;
+                    padding-bottom: 16px;
+                    border-bottom: 1px solid #DAD9D3;
+
+                }
+
+                a {
+                    padding: 15px;
+                    display: block;
+                    text-align: left;
+                    font-family: 'Inter', sans-serif;
+                    font-size: 14px;
+                    font-weight: 500;
+                    text-decoration: none;
+                    color: #191919;
+                    @media (min-width: 560px) {
+                        padding: 15px;
+                        display: block;
+                        text-align: right;
+                        font-family: 'Inter', sans-serif;
+                        font-size: 14px;
+                        font-weight: 500;
+                        text-decoration: none;
+                        color: #191919;
+                    }
+
+
+                    i {
+                        margin-left: 3px;
+                    }
+                }
+            }
+
+
+        }
+        .center-content {
+            margin-top: 40px;
+            margin-bottom: 50px;
+        }
+    }
+
+}

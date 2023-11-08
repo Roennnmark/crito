@@ -1,6 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=DM+Sans:opsz,wght@9..40,300;9..40,400;9..40,500;9..40,600;9..40,700;9..40,800;9..40,900&display=swap');
 @import './scss/generics/base';
+@import './scss/generics/btnyellow';
+@import './scss/generics/btnblack';
+@import './scss/generics/btntransparent';
 @import './scss/generics/titles';
 @import './scss/generics/dots';
 @import './scss/Sections/header';
@@ -21,8 +24,5 @@
 @import './scss/Sections/mapsection';
 @import './scss/Sections/footerinfobar';
 @import './scss/Sections/footerbar';
-@import './scss/generics/btnyellow';
-@import './scss/generics/btnblack';
-@import './scss/generics/btntransparent';
-
+@import './scss/Sections/articlesection'
 

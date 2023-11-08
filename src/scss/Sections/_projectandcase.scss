@@ -33,8 +33,7 @@
                     display: block;
                 }
             }
-            article {
-
+            
                 h3 {
                     font-family: 'DM Sans', sans-serif;
                     font-weight: 700;
@@ -45,7 +44,7 @@
 
                 }
 
-                a {
+                .read-more {
                     padding: 15px;
                     display: block;
                     text-align: left;
@@ -70,9 +69,7 @@
                         margin-left: 3px;
                     }
                 }
-            }
-
-
+            
         }
         .center-content {
             margin-top: 40px;

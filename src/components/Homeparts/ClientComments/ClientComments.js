@@ -4,6 +4,7 @@ import starImg from '../../../assets/images/Star.png'
 import cassandraImg from '../../../assets/images/client-image-1.png'
 import amandaImg from '../../../assets/images/client-image-2.png'
 import jackImg from '../../../assets/images/client-image-3.png'
+import Button from '../../Button'
 
 const ClientComments = () => {
 
@@ -27,7 +28,7 @@ const ClientComments = () => {
                     ))}
             </div>
             <div className="center-content">
-                <a className="btn-black" href="reviews.html">All Reviews <i className="fa-regular fa-arrow-up-right"></i></a>
+                <Button type="dark" title="All Reviews" url="/reviews" /> 
             </div>
         </div>
     </section>

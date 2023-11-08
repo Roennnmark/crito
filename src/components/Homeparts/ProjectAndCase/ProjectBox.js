@@ -5,7 +5,7 @@ const ProjectBox = ({ picSrc, title, url }) => {
     <div>
         <img src={picSrc} alt="picpic" />
         <h3>{title}</h3>
-        <a href={url}>Read More<i className="fa-regular fa-arrow-up-right"></i></a>
+        <a className="read-more" href={url}>Read More<i className="fa-regular fa-arrow-up-right"></i></a>
     </div>
   )
 }

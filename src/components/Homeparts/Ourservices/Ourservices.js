@@ -1,6 +1,7 @@
 import React from 'react';
 import ServiceBox from './ServiceBox';
 import Sectiontitle from '../../Sectiontitle';
+import Button from '../../Button'
 
 const Ourservices = () => {
   return (
@@ -14,7 +15,7 @@ const Ourservices = () => {
           <ServiceBox title="Risk Management" description="Lorem, ipsum dolor sit amet consectetur adipisicing elit. Officiis in nam possimus" url="/services/riskmanagement" />
         </div>
         <div className="center-content">
-            <a className="btn-transparent" href="services.html">Browse Services <i className="fa-regular fa-arrow-up-right"></i></a>
+            <Button type="transparent" title="Browse Services" url="/services" />
         </div>
       </div>
       <div className="lines-services"><img src="images/lines-4.png" alt="" /></div>

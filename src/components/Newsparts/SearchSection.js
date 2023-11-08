@@ -1,8 +1,8 @@
 import React from 'react'
-import SearchBarLines from '../../../assets/images/lines.png'
-import Button from '../../Button'
+import Button from '../Button'
+import SearchBarLines from '../../assets/images/lines.png'
 
-const SearchBar = () => {
+const SearchSection = () => {
   return (
     <section className="search-bar">
         <img className="background-lines-right" src={SearchBarLines} alt="background-lines" />
@@ -17,4 +17,4 @@ const SearchBar = () => {
   )
 }
 
-export default SearchBar
+export default SearchSection

@@ -5,6 +5,7 @@ import imgThree from '../../../assets/images/article-image-3.png'
 import imgFour from '../../../assets/images/article-image-4.png'
 import ProjectBox from './ProjectBox'
 import Sectiontitle from '../../Sectiontitle'
+import Button from '../../Button'
 
 const ProjectAndCase = () => {
 
@@ -27,7 +28,7 @@ const ProjectAndCase = () => {
                 ))}
             </div>
             <div className="center-content">
-                <a className="btn-black" href="projects.html">All recent projects <i className="fa-regular fa-arrow-up-right"></i></a>
+                <Button type="dark" title="All recent projects" url="/projects" />
             </div>
         </div>
     </section>

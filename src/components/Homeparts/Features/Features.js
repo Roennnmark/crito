@@ -1,6 +1,7 @@
 import React from 'react'
 import FeaturesBox from './FeaturesBox'
 import Sectiontitle from '../../Sectiontitle'
+import Button from '../../Button'
 
 const Features = () => {
   return (
@@ -10,7 +11,7 @@ const Features = () => {
             <div className="sections-3">
                 <div className="section-title">
                     <Sectiontitle title="Features" description="Our Accounting is trusted by thousand of companies"/>
-                    <a className="btn-yellow" href="learn-more.html">Learn More <i className="fa-regular fa-arrow-up-right"></i></a>
+                    <Button type="yellow" title="Learn More" url="/learnmore" />
                 </div>
                 <div className="section-two">
                     <FeaturesBox icon="fa-regular fa-handshake fa-2xl" title="Business Advice" description="Lorem ipsum, dolor sit amet consectetur adipisicing elit." />

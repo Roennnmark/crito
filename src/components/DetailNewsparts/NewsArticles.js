@@ -1,11 +1,11 @@
 import React from 'react'
-import ArticleBox from './ArticleBox';
-import articleImgOne from '../../../assets/images/image-31.png'
-import articleImgTwo from '../../../assets/images/image-32.png'
-import articleImgThree from '../../../assets/images/image-33.png'
-import Button from '../../Button'
+import ArticleBox from './NewsArticleBox';
+import articleImgOne from '../../assets/images/image-31.png'
+import articleImgTwo from '../../assets/images/image-32.png'
+import articleImgThree from '../../assets/images/image-33.png'
+import Button from '../Button'
 
-const ArticleNews = () => {
+const NewsArticles = () => {
 
     const articleList = [
         {  imgSrc: articleImgOne, description: "Business", title:"How To Use Digitalization In The Classroom", descriptiontwo: "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Architecto sed hic libero.", datenumber: "25", datemonth: "Mar"  },
@@ -43,4 +43,4 @@ const ArticleNews = () => {
   )
 }
 
-export default ArticleNews
+export default NewsArticles

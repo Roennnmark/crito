@@ -1,7 +1,7 @@
 import React from 'react'
 import Sectiontitle from '../../Sectiontitle'
 import womanImage from '../../../assets/images/walking-woman.png'
-
+import Button from '../../Button'
 
 const AboutCompany = () => {
   return (
@@ -24,7 +24,7 @@ const AboutCompany = () => {
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam officiis quas assumenda esse obcaecati? Ex esse error voluptates iure vel totam eos.</p>
                 <p className="company-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis esse quasi incidunt adipisci accusantium libero provident voluptate amet.</p>
                 <div className="move-buttons">
-                    <a className="btn-black" href="learn-more.html">Learn More <i className="fa-regular fa-arrow-up-right"></i></a>
+                    <Button type="dark" title="Learn More" url="/learnmore" />
                     <a className="btn-transparent" href="play.html"><i className="fa-solid fa-play"></i></a>
                     <p>Intro Video</p>
                 </div>

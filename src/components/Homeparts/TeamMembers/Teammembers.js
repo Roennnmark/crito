@@ -5,6 +5,7 @@ import imageOne from '../../../assets/images/cristine-palmer.png'
 import imageTwo from '../../../assets/images/mark-aubri.png'
 import imageThree from '../../../assets/images/kimberly-hansen.png'
 import imageFour from '../../../assets/images/justin-willoman.png'
+import Button from '../../Button'
 
 
 const Teammembers = () => {
@@ -21,7 +22,7 @@ const Teammembers = () => {
         <div className="container">
             <div className="section-title">
                 <Sectiontitle title="Our Services" description="We Provide The Best Service For Consulting"/>
-                <a className="btn-yellow" href="projects.html">Browse Team <i className="fa-regular fa-arrow-up-right"></i></a>
+                <Button type="yellow" title="Browse Team" url="/memberteam" />
             </div>
                 <div className="head-members">
                     {imageList.map(( myItem, index ) => (

@@ -1,7 +1,7 @@
 import React from 'react'
 import imageOfMan from '../../../assets/images/showcase-man.png'
 import showcaseLines from '../../../assets/images/lines-2.png'
-import Button from '../../Button'
+import Button from '../../PartsForAllPages/Button'
 
 
 const ShowCase = () => {

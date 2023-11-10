@@ -15,14 +15,14 @@ const MessageSection = () => {
 
         validationSchema: Yup.object( {
             name: Yup.string()
-                .required("You have to write your name!")
-                .min(2, "You have to write your name!"),
+                .min(2, "You have to write your name!")
+                .required("You have to write your name!"),
             email: Yup.string()
-                .required("You need to put your E-mail!")
-                .email("Put a valid E-mail adress"),
+                .matches(/^[a-zA-Z0-9._-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,4}$/, 'Put a valid E-mail adress')
+                .required("E-mail is necessary!"),
             message: Yup.string()
-                .required("Write atleast 10 letters.")
                 .min(10, "Write atleast 10 letters.")
+                .required("Write atleast 10 letters.")
 
         }),
 

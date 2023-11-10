@@ -1,0 +1,46 @@
+.digitalization {
+    margin-top: 40px;
+    .container {
+        h3 {
+            margin-bottom: 40px;
+        }
+        .both-sides {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            .left-side {
+                padding: 1px;
+
+                img {
+                    margin-bottom: 30px;
+                    width: 100%;
+                }
+            }
+    
+            .right-side {
+                padding: 0 140px;
+
+                input {
+                    margin-bottom: 30px;
+                    padding: 15px 25px;
+                    border-radius: 25px;
+                    outline: none;
+                    border: none;
+                    margin-right: 20px;
+                    background-color: #c2bfbf;
+                    width: 100%;
+                }
+                
+                .recent-posts {
+                    border: 1px solid #c2bfbf;
+                    padding: 30px;
+                    margin-bottom: 30px;
+                }
+                .news-categories {
+                    border: 1px solid #c2bfbf;
+                    padding: 30px;
+                }
+            }
+        }
+
+    }
+}

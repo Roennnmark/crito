@@ -3,7 +3,7 @@ import ArticleBox from './NewsArticleBox';
 import articleImgOne from '../../assets/images/image-31.png'
 import articleImgTwo from '../../assets/images/image-32.png'
 import articleImgThree from '../../assets/images/image-33.png'
-import Button from '../Button'
+import Button from '../PartsForAllPages/Button'
 
 const NewsArticles = () => {
 
@@ -14,7 +14,7 @@ const NewsArticles = () => {
     ];
 
   return (
-    <section className="articles-news">
+    <section className="articles-news-two">
         <div className="container">
             <div className="section-title">
                 <div className="article-headline-1">

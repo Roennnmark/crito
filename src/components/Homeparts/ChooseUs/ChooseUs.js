@@ -1,5 +1,5 @@
 import React from 'react'
-import Sectiontitle from '../../Sectiontitle'
+import Sectiontitle from '../../PartsForAllPages/Sectiontitle'
 import twoWomanImage from '../../../assets/images/two-women-talking.png'
 
 const ChooseUs = () => {

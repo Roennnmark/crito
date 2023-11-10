@@ -1,11 +1,11 @@
 import React from 'react'
-import Sectiontitle from '../../Sectiontitle'
+import Sectiontitle from '../../PartsForAllPages/Sectiontitle'
 import Memberbox from './Memberbox'
 import imageOne from '../../../assets/images/cristine-palmer.png'
 import imageTwo from '../../../assets/images/mark-aubri.png'
 import imageThree from '../../../assets/images/kimberly-hansen.png'
 import imageFour from '../../../assets/images/justin-willoman.png'
-import Button from '../../Button'
+import Button from '../../PartsForAllPages/Button'
 
 
 const Teammembers = () => {

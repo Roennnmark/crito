@@ -4,7 +4,7 @@ import starImg from '../../../assets/images/Star.png'
 import cassandraImg from '../../../assets/images/client-image-1.png'
 import amandaImg from '../../../assets/images/client-image-2.png'
 import jackImg from '../../../assets/images/client-image-3.png'
-import Button from '../../Button'
+import Button from '../../PartsForAllPages/Button'
 
 const ClientComments = () => {
 

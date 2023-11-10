@@ -1,7 +1,7 @@
 import React from 'react';
 import ServiceBox from './ServiceBox';
-import Sectiontitle from '../../Sectiontitle';
-import Button from '../../Button'
+import Sectiontitle from '../../PartsForAllPages/Sectiontitle';
+import Button from '../../PartsForAllPages/Button'
 
 const Ourservices = () => {
   return (

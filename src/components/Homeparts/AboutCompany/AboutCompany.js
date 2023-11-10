@@ -1,7 +1,7 @@
 import React from 'react'
-import Sectiontitle from '../../Sectiontitle'
+import Sectiontitle from '../../PartsForAllPages/Sectiontitle'
 import womanImage from '../../../assets/images/walking-woman.png'
-import Button from '../../Button'
+import Button from '../../PartsForAllPages/Button'
 
 const AboutCompany = () => {
   return (

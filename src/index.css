@@ -1337,6 +1337,7 @@ header .container .menu nav a.active::after, header .container .menu nav a:hover
 .article-section .container .article-item img {
   width: 90%;
   height: 30%;
+  padding-bottom: 20px;
 }
 .article-section .container .article-item p {
   font-family: "Inter", sans-serif;
@@ -1349,4 +1350,154 @@ header .container .menu nav a.active::after, header .container .menu nav a:hover
   font-family: "DM Sans", sans-serif;
   font-weight: 700;
   font-size: 22px;
+}
+
+.digitalization {
+  margin-top: 40px;
+}
+.digitalization .container h3 {
+  margin-bottom: 40px;
+}
+.digitalization .container .both-sides {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+.digitalization .container .both-sides .left-side {
+  padding: 1px;
+}
+.digitalization .container .both-sides .left-side img {
+  margin-bottom: 30px;
+  width: 100%;
+}
+.digitalization .container .both-sides .right-side {
+  padding: 0 140px;
+}
+.digitalization .container .both-sides .right-side input {
+  margin-bottom: 30px;
+  padding: 15px 25px;
+  border-radius: 25px;
+  outline: none;
+  border: none;
+  margin-right: 20px;
+  background-color: #c2bfbf;
+  width: 100%;
+}
+.digitalization .container .both-sides .right-side .recent-posts {
+  border: 1px solid #c2bfbf;
+  padding: 30px;
+  margin-bottom: 30px;
+}
+.digitalization .container .both-sides .right-side .news-categories {
+  border: 1px solid #c2bfbf;
+  padding: 30px;
+}
+
+.articles-news-two {
+  padding-bottom: 90px;
+  background-color: #F0EFE9;
+}
+.articles-news-two .container .section-title h2 {
+  font-size: 25px;
+}
+@media (min-width: 560px) {
+  .articles-news-two .container .section-title {
+    margin-bottom: -30px;
+  }
+  .articles-news-two .container .section-title .article-headline-2 {
+    display: flex;
+    justify-content: space-between;
+  }
+}
+.articles-news-two .container .three-articles img {
+  display: none;
+}
+@media (min-width: 560px) {
+  .articles-news-two .container .three-articles {
+    display: grid;
+    grid-template-columns: 1fr;
+  }
+  .articles-news-two .container .three-articles img {
+    display: block;
+  }
+}
+@media (min-width: 1200px) {
+  .articles-news-two .container .three-articles {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 30px;
+  }
+  .articles-news-two .container .three-articles img {
+    display: block;
+  }
+}
+.articles-news-two .container .three-articles .date-box-1 {
+  display: none;
+}
+@media (min-width: 1200px) {
+  .articles-news-two .container .three-articles .date-box-1 {
+    display: block;
+    width: 55px;
+    height: 65px;
+    position: relative;
+    top: -422px;
+    left: 10px;
+    background-color: #F0D082;
+    text-align: center;
+  }
+  .articles-news-two .container .three-articles .date-box-1 p {
+    margin-top: -20px;
+  }
+}
+.articles-news-two .container .three-articles .date-box-2 {
+  display: none;
+}
+@media (min-width: 1200px) {
+  .articles-news-two .container .three-articles .date-box-2 {
+    display: block;
+    width: 55px;
+    height: 65px;
+    position: relative;
+    top: -485px;
+    left: 462px;
+    background-color: #F0D082;
+    text-align: center;
+  }
+}
+.articles-news-two .container .three-articles .date-box-3 {
+  display: none;
+}
+@media (min-width: 1200px) {
+  .articles-news-two .container .three-articles .date-box-3 {
+    display: block;
+    width: 55px;
+    height: 65px;
+    position: relative;
+    top: -550px;
+    left: 912px;
+    background-color: #F0D082;
+    text-align: center;
+  }
+}
+.articles-news-two .container .three-articles p {
+  font-family: "Inter", sans-serif;
+  font-size: 15px;
+  font-weight: 400;
+  padding-top: 20px;
+  color: #6e6e6c;
+}
+.articles-news-two .container .three-articles h3 {
+  font-family: "DM Sans", sans-serif;
+  font-weight: 700;
+  font-size: 22px;
+}
+.articles-news-two .container .slide-dots-2 {
+  display: none;
+}
+@media (min-width: 1400px) {
+  .articles-news-two .container .slide-dots-2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+  }
 }

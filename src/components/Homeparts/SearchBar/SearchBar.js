@@ -1,6 +1,6 @@
 import React from 'react'
 import SearchBarLines from '../../../assets/images/lines.png'
-import Button from '../../Button'
+import Button from '../../PartsForAllPages/Button'
 
 const SearchBar = () => {
   return (

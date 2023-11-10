@@ -4,8 +4,8 @@ import imgTwo from '../../../assets/images/article-image-2.png'
 import imgThree from '../../../assets/images/article-image-3.png'
 import imgFour from '../../../assets/images/article-image-4.png'
 import ProjectBox from './ProjectBox'
-import Sectiontitle from '../../Sectiontitle'
-import Button from '../../Button'
+import Sectiontitle from '../../PartsForAllPages/Sectiontitle'
+import Button from '../../PartsForAllPages/Button'
 
 const ProjectAndCase = () => {
 

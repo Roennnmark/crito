@@ -1,6 +1,6 @@
 import React from 'react';
-import Header from '../components/Header/Header';
-import Footer from '../components/Footer/Footer';
+import Header from '../components/PartsForAllPages/Header/Header';
+import Footer from '../components/PartsForAllPages/Footer/Footer';
 import Newsmain from '../components/Newsmain';
 
 const News = () => {

@@ -1,8 +1,13 @@
 import React from 'react';
+import Footer from './../components/PartsForAllPages/Footer/Footer'
+import NotFoundmain from '../components/NotFoundmain';
 
 const Notfound = () => {
   return (
-    <h1>404 Page not found!</h1>
+    <>
+      <NotFoundmain />
+      <Footer />
+    </>
   )
 }
 

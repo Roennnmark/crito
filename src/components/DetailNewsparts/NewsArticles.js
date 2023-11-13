@@ -22,7 +22,7 @@ const NewsArticles = () => {
                 </div>
                 <div className="article-headline-2">
                     <h2>Get Every Single Articles & News</h2>
-                    <Button type="transparent" title="Browse Articles" url="/news" />
+                    <Button type="dark" title="Browse Articles" url="/news" />
                 </div>
             </div>
             <div className="three-articles">

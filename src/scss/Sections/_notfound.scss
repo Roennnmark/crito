@@ -7,22 +7,17 @@
     button {
         position: absolute;
         top: 150px;
-        left: 845px;
+        left: 720px;
         z-index: 0;
         background-color: yellow;
         border: 1px solid #191919;
-        color: #e40000;
         text-decoration: none;
-        padding: 50px 100px;
+        padding: 40px 80px;
         font-weight: 600;
         font-size: 16px;
         border-radius: 25px;
-    
-        i {
-            margin-left: 8px;
-            font-size: 0.9em;
-        }
-    
+        
+        
         &:hover {
             background-color: #FFFFFF;
             border: 1px solid #191919;

@@ -7,7 +7,7 @@ const InfoForNotFound = () => {
   return (
     <div className="error-page">
         <img src={ErrorPic} alt="error" />
-        <NavLink to="/"><button  /></NavLink>
+        <NavLink to="/"><button><h2>Back to HomePage</h2></button></NavLink>
     </div>
   )
 }

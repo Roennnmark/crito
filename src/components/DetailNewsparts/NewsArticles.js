@@ -7,6 +7,7 @@ import Button from '../PartsForAllPages/Button'
 
 const NewsArticles = () => {
 
+
     const articleList = [
         {  imgSrc: articleImgOne, description: "Business", title:"How To Use Digitalization In The Classroom", descriptiontwo: "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Architecto sed hic libero.", datenumber: "25", datemonth: "Mar"  },
         {  imgSrc: articleImgTwo, description: "Business", title:"How To Implement Chat GPT In Your Projects", descriptiontwo: "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Architecto sed hic libero.", datenumber: "17", datemonth: "Mar"  },

@@ -1,19 +1,9 @@
 import React from 'react'
-import { useEffect, useState } from 'react'
+import { useArticles } from '../../contexts/ArticleContext'
 
 const ArticleSection = () => {
-    const [articles, setArticles] = useState([])
+    const { articles } = useArticles()
 
-    useEffect(() => {
-        getArticles()
-    }, [])
-
-    const getArticles = async () => {
-        const result = await fetch('https://win23-assignment.azurewebsites.net/api/articles')
-        const data = await result.json()
-        setArticles(data)
-        console.log(data)
-    }
 
   return (
     <div className="article-section">
